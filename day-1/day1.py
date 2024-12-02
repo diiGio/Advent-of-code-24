@@ -15,6 +15,6 @@ def calculate_total_distance_from_file(file_path):
     
     return total_distance
 
-file_path = '.\prova.txt'
+file_path = '.\input.txt'
 total_distance = calculate_total_distance_from_file(file_path)
 print(f"Total distance between the lists: {total_distance}")
